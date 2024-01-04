@@ -8,14 +8,20 @@ export const SpotifyConfiguration ={
   authEndpoint:'https://accounts.spotify.com/authorize',
   redirectUrl:'http://localhost:4200/login/',
   scopes:[
+
     "user-read-currently-playing",
+    "user-read-playback-state",
+    "user-modify-playback-state",
     "user-read-recently-played",
-    "user-modify-playback-state",
     "user-top-read",
-    "user-modify-playback-state",
+    "user-read-playback-position",
     "user-library-read",
+    "user-library-modify",
     "playlist-read-private",
-    "playlist-read-collaborative"
+    "playlist-read-collaborative",
+    "user-read-private",
+    "user-read-email"
+
 
   ]
 }
